@@ -12,7 +12,7 @@ addResources({                                          // Function for adding a
     dirt: {
         image: "images/dirt.png",
     },
-    stick: {
+    log: {
         image: "images/stick.png",
     },
     planks: {
