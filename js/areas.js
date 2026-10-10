@@ -61,10 +61,10 @@ addArea("c",                                            // Function for adding a
 
     crafts: [
         {
-            name: "stick",
+            name: "log",
             desc: "Used to craft planks",
             type: "display",
-            cost: [["stick", 0]],
+            cost: [["log", 0]],
         },
         {
             name: "dirt",
@@ -76,7 +76,8 @@ addArea("c",                                            // Function for adding a
             name: "planks",
             desc: "Used to make a crafting table",
             type: "craft",
-            cost: [["stick", 2]],
+            amount: 4,
+            cost: [["log", 1]],
         },
         {
             name: "crafting table",
