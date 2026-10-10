@@ -13,7 +13,7 @@ addResources({                                          // Function for adding a
         image: "images/dirt.png",
     },
     log: {
-        image: "images/stick.png",
+        image: "images/oakLog.png",
     },
     planks: {
         image: "images/planks.png",
@@ -31,7 +31,7 @@ addResources({                                          // Function for adding a
 
 // Areas
 
-addArea("c",                                            // Function for adding areas to your game
+addArea("o",                                            // Function for adding areas to your game
 {
     name: "City State",
     image: "images/areas/cityState.png",
@@ -94,10 +94,9 @@ addArea("c",                                            // Function for adding a
         },
         {
             name: "dirt hut",
-            desc: "Required to beat the game!",
+            desc: "required to make get villagers",
             type: "craft",
             cost: [["dirt", 23], ["crafting table", 1], ["door", 1]],
-            message: "You have beaten the game!",
         },
     ],
 
