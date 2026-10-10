@@ -94,7 +94,13 @@ addArea("o",                                            // Function for adding a
         },
         {
             name: "dirt hut",
-            desc: "required to make get villagers",
+            desc: "required to get villagers",
+            type: "craft",
+            cost: [["dirt", 20], ["crafting table", 1], ["door", 1]],
+        },
+        {
+            name: "villagers",
+            desc: "working class people",
             type: "craft",
             cost: [["dirt", 20], ["crafting table", 1], ["door", 1]],
         },
