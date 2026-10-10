@@ -46,7 +46,7 @@ addArea("c",                                            // Function for adding a
             background: "images/grinds/overworld.png",
             resources: [
                 {
-                    id: "stick",
+                    id: "log",
                     time: [["", 0.5]],
                     probability: 50,
                 },
